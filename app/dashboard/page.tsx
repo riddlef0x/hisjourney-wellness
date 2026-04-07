@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export default function Dashboard() {
   const [entries, setEntries] = useState<any[]>([])
-  const [wellnessScore, setWellnessScore] = useState(7.2)
+  const [wellnessScore, _setWellnessScore] = useState(7.2)
   const [currentMood, setCurrentMood] = useState(7)
   const [insights, setInsights] = useState<any[]>([])
   const [loading, setLoading] = useState(true)
