@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { useState } from 'react'
 
 export default function HomePage() {
-  const [email, setEmail] = useState('')
+  const [_email, _setEmail] = useState('')
 
   return (
     <main className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
