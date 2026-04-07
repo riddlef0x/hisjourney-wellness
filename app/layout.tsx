@@ -29,9 +29,9 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta charSet="utf-8" />
-        <meta name="theme-color" content="#3b82f6" />
+        <meta name="theme-color" content="#6b9f7f" />
         <link rel="manifest" href="/manifest.json" />
-        <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75' fill='%233b82f6'>🧘</text></svg>" />
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75' fill='%236b9f7f'>✨</text></svg>" />
       </head>
       <body>{children}</body>
     </html>
