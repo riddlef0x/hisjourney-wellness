@@ -5,10 +5,16 @@ export default function HowItWorks() {
     <section className="py-20 px-4 bg-wellness-cream">
       <div className="flex min-h-screen max-w-7xl mx-auto gap-16">
         {/* Left Side - Sticky Container */}
-        <div className="flex-1 sticky top-[10vh] h-fit">
-          <div className="glassmorphism-device">
-            {/* Abstract AI Node */}
-            <div className="ai-node-shape"></div>
+        <div className="flex-1">
+          <div className="device-container">
+            {/* Ambient Orbs */}
+            <div className="ambient-orb-1"></div>
+            <div className="ambient-orb-2"></div>
+            
+            {/* Glass Interface */}
+            <div className="glass-interface">
+              <div className="css-grid-lines"></div>
+            </div>
           </div>
         </div>
 
