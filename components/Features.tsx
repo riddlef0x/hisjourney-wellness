@@ -32,8 +32,24 @@ export default function Features() {
           boxShadow: '0 4px 24px rgba(0,0,0,0.04)',
           display: 'flex',
           flexDirection: 'column',
-          justifyContent: 'flex-start'
+          justifyContent: 'flex-start',
+          position: 'relative',
+          overflow: 'hidden'
         }}>
+          {/* Massive Number Watermark */}
+          <div style={{
+            position: 'absolute',
+            bottom: '-10px',
+            right: '10px',
+            fontSize: '8rem',
+            lineHeight: 1,
+            color: '#2C4C3B',
+            opacity: 0.05,
+            fontFamily: 'Playfair Display, serif',
+            pointerEvents: 'none'
+          }}>
+            01
+          </div>
           <h3 className="font-serif text-2xl font-semibold text-wellness-moss mb-4">
             Smart Journaling
           </h3>
@@ -52,8 +68,24 @@ export default function Features() {
           boxShadow: '0 4px 24px rgba(0,0,0,0.04)',
           display: 'flex',
           flexDirection: 'column',
-          justifyContent: 'flex-start'
+          justifyContent: 'flex-start',
+          position: 'relative',
+          overflow: 'hidden'
         }}>
+          {/* Massive Number Watermark */}
+          <div style={{
+            position: 'absolute',
+            bottom: '-10px',
+            right: '10px',
+            fontSize: '8rem',
+            lineHeight: 1,
+            color: '#2C4C3B',
+            opacity: 0.05,
+            fontFamily: 'Playfair Display, serif',
+            pointerEvents: 'none'
+          }}>
+            02
+          </div>
           <h3 className="font-serif text-xl font-semibold text-wellness-moss mb-3">
             Goal Tracking
           </h3>
@@ -72,8 +104,24 @@ export default function Features() {
           boxShadow: '0 4px 24px rgba(0,0,0,0.04)',
           display: 'flex',
           flexDirection: 'column',
-          justifyContent: 'flex-start'
+          justifyContent: 'flex-start',
+          position: 'relative',
+          overflow: 'hidden'
         }}>
+          {/* Massive Number Watermark */}
+          <div style={{
+            position: 'absolute',
+            bottom: '-10px',
+            right: '10px',
+            fontSize: '8rem',
+            lineHeight: 1,
+            color: '#2C4C3B',
+            opacity: 0.05,
+            fontFamily: 'Playfair Display, serif',
+            pointerEvents: 'none'
+          }}>
+            03
+          </div>
           <h3 className="font-serif text-xl font-semibold text-wellness-moss mb-3">
             AI Wellness Coach
           </h3>
@@ -92,8 +140,24 @@ export default function Features() {
           boxShadow: '0 4px 24px rgba(0,0,0,0.04)',
           display: 'flex',
           flexDirection: 'column',
-          justifyContent: 'flex-start'
+          justifyContent: 'flex-start',
+          position: 'relative',
+          overflow: 'hidden'
         }}>
+          {/* Massive Number Watermark */}
+          <div style={{
+            position: 'absolute',
+            bottom: '-10px',
+            right: '10px',
+            fontSize: '8rem',
+            lineHeight: 1,
+            color: '#2C4C3B',
+            opacity: 0.05,
+            fontFamily: 'Playfair Display, serif',
+            pointerEvents: 'none'
+          }}>
+            04
+          </div>
           <h3 className="font-serif text-xl font-semibold text-wellness-moss mb-3">
             Health Metrics
           </h3>
@@ -112,8 +176,24 @@ export default function Features() {
           boxShadow: '0 4px 24px rgba(0,0,0,0.04)',
           display: 'flex',
           flexDirection: 'column',
-          justifyContent: 'flex-start'
+          justifyContent: 'flex-start',
+          position: 'relative',
+          overflow: 'hidden'
         }}>
+          {/* Massive Number Watermark */}
+          <div style={{
+            position: 'absolute',
+            bottom: '-10px',
+            right: '10px',
+            fontSize: '8rem',
+            lineHeight: 1,
+            color: '#2C4C3B',
+            opacity: 0.05,
+            fontFamily: 'Playfair Display, serif',
+            pointerEvents: 'none'
+          }}>
+            05
+          </div>
           <h3 className="font-serif text-xl font-semibold text-wellness-moss mb-3">
             Privacy First
           </h3>
@@ -132,8 +212,24 @@ export default function Features() {
           boxShadow: '0 4px 24px rgba(0,0,0,0.04)',
           display: 'flex',
           flexDirection: 'column',
-          justifyContent: 'flex-start'
+          justifyContent: 'flex-start',
+          position: 'relative',
+          overflow: 'hidden'
         }}>
+          {/* Massive Number Watermark */}
+          <div style={{
+            position: 'absolute',
+            bottom: '-10px',
+            right: '10px',
+            fontSize: '8rem',
+            lineHeight: 1,
+            color: '#2C4C3B',
+            opacity: 0.05,
+            fontFamily: 'Playfair Display, serif',
+            pointerEvents: 'none'
+          }}>
+            06
+          </div>
           <h3 className="font-serif text-xl font-semibold text-wellness-moss mb-3">
             Mobile Optimized
           </h3>

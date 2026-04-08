@@ -6,9 +6,24 @@ export default function HowItWorks() {
       <div className="flex min-h-screen max-w-7xl mx-auto gap-16">
         {/* Left Side - Sticky Container */}
         <div className="flex-1 sticky top-[10vh] h-fit">
-          <div className="bg-wellness-moss rounded-3xl aspect-[9/16] w-full max-w-md mx-auto relative shadow-xl">
-            {/* Add subtle inner highlight for premium feel */}
-            <div className="absolute top-0.5 left-0.5 right-0.5 bottom-0.5 rounded-3xl bg-gradient-to-br from-white/10 to-transparent pointer-events-none" />
+          <div style={{
+            background: 'linear-gradient(145deg, #2C4C3B 0%, #1A2D23 100%)',
+            borderRadius: '24px',
+            aspectRatio: '9/16',
+            width: '100%',
+            maxWidth: '320px',
+            margin: '0 auto',
+            position: 'relative',
+            boxShadow: '0 20px 40px rgba(0,0,0,0.15)'
+          }}>
+            {/* Inner Screen */}
+            <div style={{
+              background: '#F5F5F0',
+              borderRadius: '12px',
+              margin: '10px',
+              height: 'calc(100% - 20px)',
+              opacity: 0.1
+            }}></div>
           </div>
         </div>
 

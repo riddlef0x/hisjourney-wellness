@@ -28,14 +28,37 @@ export default function Pricing() {
             </li>
           </ul>
 
-          <button className="mt-auto bg-transparent border-2 border-wellness-moss text-wellness-moss rounded-lg p-4 font-bold text-base cursor-pointer transition-all duration-300 hover:scale-105 hover:bg-wellness-moss/5">
+          <button style={{
+            marginTop: 'auto',
+            background: 'transparent',
+            border: '2px solid #2C4C3B',
+            color: '#2C4C3B',
+            borderRadius: '8px',
+            padding: '1rem',
+            fontWeight: 'bold',
+            fontSize: '1rem',
+            cursor: 'pointer',
+            transition: 'all 0.3s ease'
+          }}>
             Get Started Free
           </button>
         </div>
 
         {/* Pro Tier Card */}
-        <div className="flex flex-col gap-6 rounded-2xl p-12 w-full max-w-lg bg-wellness-moss text-wellness-cream transition-all duration-300 transform scale-105 shadow-xl relative">
-          <div className="absolute bg-green-200 text-wellness-moss px-3 py-1 rounded-full text-sm font-semibold" style={{position: 'absolute', top: '-15px', left: '50%', transform: 'translateX(-50%)', zIndex: 10}}>
+        <div className="flex flex-col gap-6 rounded-2xl p-12 w-full max-w-lg bg-wellness-moss text-wellness-cream transition-all duration-300 transform scale-105 shadow-xl" style={{position: 'relative'}}>
+          <div style={{
+            position: 'absolute',
+            top: 0,
+            left: '50%',
+            transform: 'translate(-50%, -50%)',
+            background: '#D9E2D5',
+            color: '#2C4C3B',
+            padding: '4px 12px',
+            borderRadius: '20px',
+            fontSize: '0.8rem',
+            fontWeight: 600,
+            zIndex: 10
+          }}>
             Most Popular
           </div>
           
