@@ -34,8 +34,8 @@ export default function Pricing() {
         </div>
 
         {/* Pro Tier Card */}
-        <div className="flex flex-col gap-6 rounded-2xl p-12 w-full max-w-lg bg-wellness-moss text-wellness-cream relative transition-all duration-300 transform scale-105 shadow-xl">
-          <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-green-200 text-wellness-moss px-3 py-1 rounded-full text-sm font-semibold">
+        <div className="flex flex-col gap-6 rounded-2xl p-12 w-full max-w-lg bg-wellness-moss text-wellness-cream transition-all duration-300 transform scale-105 shadow-xl relative">
+          <div className="absolute bg-green-200 text-wellness-moss px-3 py-1 rounded-full text-sm font-semibold" style={{position: 'absolute', top: '-15px', left: '50%', transform: 'translateX(-50%)', zIndex: 10}}
             Most Popular
           </div>
           
