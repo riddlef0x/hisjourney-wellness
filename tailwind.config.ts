@@ -10,15 +10,15 @@ const config: Config = {
     extend: {
       colors: {
         wellness: {
-          'moss': '#2d5016',
-          'sage': '#6b9f7f',
-          'cream': '#f5f1eb',
-          'oatmeal': '#dcc8b8',
+          'moss': '#2C4C3B',
+          'sage': '#5a7e6e',
+          'cream': '#F5F5F0',
+          'oatmeal': '#e8ddd0',
           'terracotta': '#c9735c',
           'dark': '#1a1a1a'
         },
-        primary: '#6b9f7f',
-        secondary: '#2d5016',
+        primary: '#5a7e6e',
+        secondary: '#2C4C3B',
         accent: '#c9735c',
         warning: '#f59e0b',
         danger: '#ef4444'

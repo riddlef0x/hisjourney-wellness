@@ -1,5 +1,7 @@
 'use client'
 
+import './testimonials.css'
+
 const testimonials = [
   {
     quote: 'HisJourney completely transformed how I understand my emotions. The AI insights are eerily accurate.',
@@ -40,11 +42,14 @@ const testimonials = [
 ]
 
 export default function Testimonials() {
+  // Duplicate testimonials for seamless loop
+  const marqueeItems = [...testimonials, ...testimonials]
+
   return (
-    <section className="py-28 px-4 bg-white">
+    <section className="py-28 px-4 bg-white overflow-hidden">
       <div className="container mx-auto max-w-7xl">
         <div className="mb-20 text-center">
-          <span className="text-wellness-sage text-sm font-semibold uppercase tracking-widest">Real Stories</span>
+          <span className="text-wellness-moss text-sm font-semibold uppercase tracking-widest">Real Stories</span>
           <h2 className="text-5xl font-serif font-bold text-wellness-dark mt-4 mb-6">
             Loved by Men Like You
           </h2>
@@ -53,48 +58,45 @@ export default function Testimonials() {
           </p>
         </div>
 
-        {/* Masonry Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-max">
-          {testimonials.map((testimonial, idx) => (
-            <div
-              key={idx}
-              className="card animate-fadeInUp group hover:shadow-2xl hover:border-wellness-sage/50"
-              style={{
-                animationDelay: `${idx * 50}ms`,
-                opacity: 0,
-                height: idx === 0 || idx === 4 ? 'auto' : idx === 2 ? 'auto' : 'auto'
-              }}
-            >
-              {/* Stars */}
-              <div className="flex gap-1 mb-4">
-                {[...Array(5)].map((_, i) => (
-                  <span key={i} className="text-wellness-sage text-lg">
-                    ⭐
-                  </span>
-                ))}
-              </div>
-
-              {/* Quote */}
-              <p className="text-lg text-gray-700 mb-6 italic leading-relaxed">
-                "{testimonial.quote}"
-              </p>
-
-              {/* Author */}
-              <div className="border-t border-gray-200 pt-6 flex items-center gap-4">
-                <div className="w-12 h-12 rounded-full bg-wellness-sage/10 flex items-center justify-center text-2xl">
-                  {testimonial.avatar}
+        {/* Infinite Marquee Container */}
+        <div className="marquee-container">
+          <div className="marquee-track">
+            {marqueeItems.map((testimonial, idx) => (
+              <div
+                key={idx}
+                className="marquee-item card min-w-[350px] md:min-w-[400px] flex-shrink-0 hover:shadow-2xl hover:border-wellness-moss/50 transition"
+              >
+                {/* Stars */}
+                <div className="flex gap-1 mb-4">
+                  {[...Array(5)].map((_, i) => (
+                    <span key={i} className="text-wellness-moss text-lg">
+                      ⭐
+                    </span>
+                  ))}
                 </div>
-                <div>
-                  <p className="font-serif font-bold text-wellness-dark">
-                    {testimonial.author}
-                  </p>
-                  <p className="text-sm text-gray-600">
-                    {testimonial.role}
-                  </p>
+
+                {/* Quote */}
+                <p className="text-lg text-gray-700 mb-6 italic leading-relaxed">
+                  "{testimonial.quote}"
+                </p>
+
+                {/* Author */}
+                <div className="border-t border-gray-200 pt-6 flex items-center gap-4">
+                  <div className="w-12 h-12 rounded-full bg-wellness-moss/10 flex items-center justify-center text-2xl">
+                    {testimonial.avatar}
+                  </div>
+                  <div>
+                    <p className="font-serif font-bold text-wellness-dark">
+                      {testimonial.author}
+                    </p>
+                    <p className="text-sm text-gray-600">
+                      {testimonial.role}
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </section>
