@@ -4,6 +4,9 @@ export default function Features() {
   return (
     <section className="py-20 px-4 bg-wellness-cream">
       <div className="text-center mb-16">
+        <p className="section-kicker-elite text-wellness-moss mb-4">
+          Premium Wellness Tools
+        </p>
         <h2 className="font-serif text-5xl font-semibold text-wellness-moss mb-6">
           Powerful Features
         </h2>
@@ -23,31 +26,13 @@ export default function Features() {
       }}>
         
         {/* Item 1: Smart Journaling (Large Hero Card) */}
-        <div style={{
+        <div className="feature-card-2026 smart-journaling-hero" style={{
           gridColumn: 'span 2',
           gridRow: 'span 2',
-          background: '#E8EFEA',
-          borderRadius: '24px',
-          padding: '2rem',
-          boxShadow: '0 4px 24px rgba(0,0,0,0.04)',
-          display: 'flex',
-          flexDirection: 'column',
-          justifyContent: 'flex-start',
-          position: 'relative',
-          overflow: 'hidden'
+          background: '#E8EFEA'
         }}>
           {/* Massive Number Watermark */}
-          <div style={{
-            position: 'absolute',
-            bottom: '-10px',
-            right: '10px',
-            fontSize: '8rem',
-            lineHeight: 1,
-            color: '#2C4C3B',
-            opacity: 0.05,
-            fontFamily: 'Playfair Display, serif',
-            pointerEvents: 'none'
-          }}>
+          <div className="feature-watermark">
             01
           </div>
           <h3 className="font-serif text-2xl font-semibold text-wellness-moss mb-4">
@@ -59,18 +44,9 @@ export default function Features() {
         </div>
 
         {/* Item 2: Goal Tracking (Wide Horizontal Card) */}
-        <div style={{
+        <div className="feature-card-2026" style={{
           gridColumn: 'span 2',
-          gridRow: 'span 1',
-          background: '#FFFFFF',
-          borderRadius: '24px',
-          padding: '2rem',
-          boxShadow: '0 4px 24px rgba(0,0,0,0.04)',
-          display: 'flex',
-          flexDirection: 'column',
-          justifyContent: 'flex-start',
-          position: 'relative',
-          overflow: 'hidden'
+          gridRow: 'span 1'
         }}>
           {/* Massive Number Watermark */}
           <div style={{
@@ -95,18 +71,9 @@ export default function Features() {
         </div>
 
         {/* Item 3: AI Wellness Coach (Standard Square Card) */}
-        <div style={{
+        <div className="feature-card-2026" style={{
           gridColumn: 'span 1',
-          gridRow: 'span 1',
-          background: '#FFFFFF',
-          borderRadius: '24px',
-          padding: '2rem',
-          boxShadow: '0 4px 24px rgba(0,0,0,0.04)',
-          display: 'flex',
-          flexDirection: 'column',
-          justifyContent: 'flex-start',
-          position: 'relative',
-          overflow: 'hidden'
+          gridRow: 'span 1'
         }}>
           {/* Massive Number Watermark */}
           <div style={{
@@ -131,18 +98,9 @@ export default function Features() {
         </div>
 
         {/* Item 4: Health Metrics (Standard Square Card) */}
-        <div style={{
+        <div className="feature-card-2026" style={{
           gridColumn: 'span 1',
-          gridRow: 'span 1',
-          background: '#FFFFFF',
-          borderRadius: '24px',
-          padding: '2rem',
-          boxShadow: '0 4px 24px rgba(0,0,0,0.04)',
-          display: 'flex',
-          flexDirection: 'column',
-          justifyContent: 'flex-start',
-          position: 'relative',
-          overflow: 'hidden'
+          gridRow: 'span 1'
         }}>
           {/* Massive Number Watermark */}
           <div style={{
@@ -167,18 +125,9 @@ export default function Features() {
         </div>
 
         {/* Item 5: Privacy First (Wide Horizontal Card) */}
-        <div style={{
+        <div className="feature-card-2026" style={{
           gridColumn: 'span 2',
-          gridRow: 'span 1',
-          background: '#FFFFFF',
-          borderRadius: '24px',
-          padding: '2rem',
-          boxShadow: '0 4px 24px rgba(0,0,0,0.04)',
-          display: 'flex',
-          flexDirection: 'column',
-          justifyContent: 'flex-start',
-          position: 'relative',
-          overflow: 'hidden'
+          gridRow: 'span 1'
         }}>
           {/* Massive Number Watermark */}
           <div style={{
@@ -203,18 +152,9 @@ export default function Features() {
         </div>
 
         {/* Item 6: Mobile Optimized (Wide Horizontal Card) */}
-        <div style={{
+        <div className="feature-card-2026" style={{
           gridColumn: 'span 2',
-          gridRow: 'span 1',
-          background: '#FFFFFF',
-          borderRadius: '24px',
-          padding: '2rem',
-          boxShadow: '0 4px 24px rgba(0,0,0,0.04)',
-          display: 'flex',
-          flexDirection: 'column',
-          justifyContent: 'flex-start',
-          position: 'relative',
-          overflow: 'hidden'
+          gridRow: 'span 1'
         }}>
           {/* Massive Number Watermark */}
           <div style={{

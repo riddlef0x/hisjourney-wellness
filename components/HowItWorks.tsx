@@ -6,24 +6,9 @@ export default function HowItWorks() {
       <div className="flex min-h-screen max-w-7xl mx-auto gap-16">
         {/* Left Side - Sticky Container */}
         <div className="flex-1 sticky top-[10vh] h-fit">
-          <div style={{
-            background: 'linear-gradient(145deg, #2C4C3B 0%, #1A2D23 100%)',
-            borderRadius: '24px',
-            aspectRatio: '9/16',
-            width: '100%',
-            maxWidth: '320px',
-            margin: '0 auto',
-            position: 'relative',
-            boxShadow: '0 20px 40px rgba(0,0,0,0.15)'
-          }}>
-            {/* Inner Screen */}
-            <div style={{
-              background: '#F5F5F0',
-              borderRadius: '12px',
-              margin: '10px',
-              height: 'calc(100% - 20px)',
-              opacity: 0.1
-            }}></div>
+          <div className="glassmorphism-device">
+            {/* Abstract AI Node */}
+            <div className="ai-node-shape"></div>
           </div>
         </div>
 
@@ -31,7 +16,7 @@ export default function HowItWorks() {
         <div className="flex-1 flex flex-col">
           {/* Step 1: Sign Up */}
           <div className="min-h-[60vh] flex flex-col justify-center py-8 border-b border-wellness-moss/10">
-            <div className="font-medium text-wellness-moss/60 text-base mb-4 tracking-wide uppercase">
+            <div className="section-kicker-elite text-wellness-moss">
               Step 01
             </div>
             <h2 className="font-serif text-5xl font-semibold text-wellness-moss leading-tight mb-6">
@@ -46,7 +31,7 @@ export default function HowItWorks() {
 
           {/* Step 2: Journal & Track */}
           <div className="min-h-[60vh] flex flex-col justify-center py-8 border-b border-wellness-moss/10">
-            <div className="font-medium text-wellness-moss/60 text-base mb-4 tracking-wide uppercase">
+            <div className="section-kicker-elite text-wellness-moss">
               Step 02
             </div>
             <h2 className="font-serif text-5xl font-semibold text-wellness-moss leading-tight mb-6">
@@ -61,7 +46,7 @@ export default function HowItWorks() {
 
           {/* Step 3: Get Insights */}
           <div className="min-h-[60vh] flex flex-col justify-center py-8 border-b border-wellness-moss/10">
-            <div className="font-medium text-wellness-moss/60 text-base mb-4 tracking-wide uppercase">
+            <div className="section-kicker-elite text-wellness-moss">
               Step 03
             </div>
             <h2 className="font-serif text-5xl font-semibold text-wellness-moss leading-tight mb-6">
@@ -76,7 +61,7 @@ export default function HowItWorks() {
 
           {/* Step 4: Transform */}
           <div className="min-h-[60vh] flex flex-col justify-center py-8">
-            <div className="font-medium text-wellness-moss/60 text-base mb-4 tracking-wide uppercase">
+            <div className="section-kicker-elite text-wellness-moss">
               Step 04
             </div>
             <h2 className="font-serif text-5xl font-semibold text-wellness-moss leading-tight mb-6">

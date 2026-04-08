@@ -2,8 +2,22 @@
 
 export default function Pricing() {
   return (
-    <section className="py-20 px-4 bg-wellness-cream">
-      <div className="flex justify-center gap-8 items-center max-w-6xl mx-auto">
+    <section className="pricing-section py-20 px-4 bg-wellness-cream">
+      <div className="text-center mb-16 relative z-10">
+        <p className="section-kicker-elite text-wellness-moss mb-4">
+          Simple, Transparent Pricing
+        </p>
+        <h2 className="font-serif text-5xl font-semibold text-wellness-moss mb-6">
+          Choose Your Plan
+        </h2>
+        <p className="text-lg text-wellness-moss/80 max-w-2xl mx-auto">
+          Start free, upgrade when you're ready for advanced AI insights
+        </p>
+      </div>
+      
+      <div className="pricing-container-2026">
+        {/* Vertical Divider */}
+        <div className="pricing-divider"></div>
         {/* Free Tier Card */}
         <div className="flex flex-col gap-6 rounded-2xl p-12 w-full max-w-lg border border-wellness-moss/20 bg-wellness-cream text-wellness-moss relative transition-all duration-300">
           <h3 className="font-serif text-3xl font-semibold">Free</h3>
@@ -28,24 +42,13 @@ export default function Pricing() {
             </li>
           </ul>
 
-          <button style={{
-            marginTop: 'auto',
-            background: 'transparent',
-            border: '2px solid #2C4C3B',
-            color: '#2C4C3B',
-            borderRadius: '8px',
-            padding: '1rem',
-            fontWeight: 'bold',
-            fontSize: '1rem',
-            cursor: 'pointer',
-            transition: 'all 0.3s ease'
-          }}>
+          <button className="free-button-2026">
             Get Started Free
           </button>
         </div>
 
         {/* Pro Tier Card */}
-        <div className="flex flex-col gap-6 rounded-2xl p-12 w-full max-w-lg bg-wellness-moss text-wellness-cream transition-all duration-300 transform scale-105 shadow-xl" style={{position: 'relative'}}>
+        <div className="pro-card-2026 flex flex-col gap-6 rounded-2xl p-12 w-full max-w-lg text-wellness-cream transition-all duration-300 transform scale-105" style={{position: 'relative'}}>
           <div style={{
             position: 'absolute',
             top: 0,
@@ -106,6 +109,7 @@ export default function Pricing() {
             Start Pro Trial
           </button>
         </div>
+
       </div>
 
       {/* Responsive Design for Mobile */}

@@ -49,7 +49,7 @@ export default function Hero() {
   }, [])
 
   return (
-    <section className="relative h-[90vh] pt-32 pb-20 px-4 flex items-center justify-center overflow-hidden">
+    <section className="hero-section relative h-[90vh] pt-32 pb-20 px-4 flex items-center justify-center overflow-hidden">
       {/* Background Canvas */}
       <canvas
         ref={canvasRef}
@@ -58,17 +58,13 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 max-w-5xl mx-auto text-center">
-        <div className="mb-8 inline-block">
-          <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-wellness-moss/10 border border-wellness-moss/30 text-wellness-moss text-sm font-semibold">
-            <span className="relative flex h-2 w-2">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-wellness-moss opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-wellness-moss"></span>
-            </span>
+        <div className="mb-8">
+          <p className="section-kicker-elite text-wellness-moss mb-4">
             AI-Powered Wellness Platform
-          </span>
+          </p>
         </div>
 
-        <h1 className="text-8xl md:text-9xl font-serif font-bold text-wellness-dark mb-6 leading-tight" style={{ fontSize: 'clamp(3.5rem, 10vw, 6.5rem)' }}>
+        <h1 className="hero-h1-extreme font-serif font-bold text-wellness-moss mb-6">
           Your Wellness<br />
           <span className="bg-gradient-to-r from-wellness-moss to-wellness-moss/70 bg-clip-text text-transparent">
             Journey Awaits
